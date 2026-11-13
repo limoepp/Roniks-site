@@ -29,11 +29,12 @@ $tg = tg_href();
 <meta property="og:description" content="<?= e($desc) ?>">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
-<meta name="theme-color" content="#17393a">
+<meta name="theme-color" content="#f0f7f4">
 <link rel="icon" href="<?= e(asset('assets/img/favicon.svg')) ?>" type="image/svg+xml">
 <link rel="preload" href="<?= e(url('/assets/fonts/golos-text-cyrillic-wght-normal.woff2')) ?>" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="<?= e(url('/assets/fonts/literata-cyrillic-opsz-normal.woff2')) ?>" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="<?= e(asset('assets/css/site.css')) ?>">
+<link rel="stylesheet" href="<?= e(asset('assets/css/keri.css')) ?>">
 <script type="application/ld+json"><?= json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'BeautySalon',
@@ -44,7 +45,7 @@ $tg = tg_href();
     'foundingDate' => (string) $s['since'],
 ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>
 </head>
-<body class="<?= $route === '/' ? 'is-home' : '' ?>">
+<body class="keri-theme <?= $route === '/' ? 'is-home' : '' ?>">
 <a class="skip" href="#main">Перейти к содержанию</a>
 
 <header class="site-header">

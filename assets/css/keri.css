@@ -1,0 +1,137 @@
+/* Вариант B: светлая система, вдохновлённая сайтом клиники «Кэри».
+   Базовые компоненты и взаимодействия остаются в site.css / site.js. */
+.keri-theme {
+  --ink: #283e3a;
+  --ink-2: #345e52;
+  --berry: #a63769;
+  --berry-dark: #84284f;
+  --blush: #fae9f1;
+  --blush-2: #fff5f9;
+  --paper: #f7f9f8;
+  --muted: #576862;
+  --line: #dce6e1;
+  --mint: #d5e9df;
+  --green: #3c7564;
+  --green-light: #eaf4ee;
+  --pink: #e68bb2;
+  --display: "Golos Text", system-ui, sans-serif;
+  --section: 56px;
+  --r-l: 14px;
+  font-size: 16px;
+  background: var(--white);
+}
+.keri-theme h1, .keri-theme h2, .keri-theme h3 { letter-spacing: -.025em; }
+.keri-theme .topbar { background: var(--white); color: var(--muted); border-bottom: 1px solid var(--line); }
+.keri-theme .topbar__in { min-height: 46px; }
+.keri-theme .topbar__phone { color: var(--ink); }
+.keri-theme a.topbar__item:hover, .keri-theme .topbar__icon:hover { color: var(--berry); background: var(--blush-2); }
+.keri-theme .mainbar__in { min-height: 78px; }
+.keri-theme .logo__word { font-size: 28px; font-weight: 600; letter-spacing: -.045em; }
+.keri-theme .logo__word::after { background: var(--pink); width: 9px; height: 9px; }
+.keri-theme .logo__sub { font-size: 11px; letter-spacing: .015em; }
+.keri-theme .nav__link { font-size: 15px; font-weight: 450; }
+.keri-theme .nav__link:hover { background: var(--green-light); }
+.keri-theme .btn { border-radius: 24px; font-weight: 500; }
+.keri-theme .btn--berry { background: var(--green); color: white; }
+.keri-theme .btn--berry:hover { background: var(--ink-2); }
+.keri-theme .btn--ink { background: var(--green); }
+.keri-theme .btn--ink:hover { background: var(--ink-2); }
+.keri-theme .btn--ghost { border-color: var(--line); background: white; }
+.keri-theme .btn--ghost:hover { background: var(--green-light); color: var(--ink); border-color: var(--green); }
+.keri-theme .hero { background: var(--green-light); color: var(--ink); padding: 48px 0; border-bottom: 1px solid var(--line); }
+.keri-theme .hero__grid { gap: 56px; }
+.keri-theme .hero__title { font-size: clamp(28px, 3vw, 42px); font-weight: 500; max-width: 22ch; line-height: 1.16; }
+.keri-theme .hero__lead { color: var(--muted); font-size: 18px; margin: 20px 0 28px; }
+.keri-theme .finder__box { border: 1px solid #bdd3c6; border-radius: 32px; padding: 5px 6px 5px 20px; }
+.keri-theme .finder__input { font-size: 17px; min-height: 44px; }
+.keri-theme .finder__btn { min-height: 44px; }
+.keri-theme .chip--dark { color: var(--green); border-color: #b9cfc3; background: transparent; }
+.keri-theme .chip--dark:hover { background: white; border-color: var(--green); }
+.keri-theme .finder__results { border: 1px solid var(--line); }
+.keri-theme .status, .keri-theme .rating { color: var(--muted); }
+.keri-theme .rating b { color: var(--ink); }
+.keri-theme .offer { background: white; border: 1px solid #cdded4; padding: 24px; }
+.keri-theme .offer__title { font-size: 23px; color: var(--green); }
+.keri-theme .offer__list { gap: 0; }
+.keri-theme .promo--compact { border-radius: 0; border-top: 1px solid var(--line); }
+.keri-theme .promo--compact .promo__body { padding: 17px 0; }
+.keri-theme .promo--compact .promo__title { padding-right: 72px; font-size: 16px; }
+.keri-theme .promo--compact .promo__badge { right: 0; top: 16px; }
+.keri-theme .promo__badge { background: var(--blush); color: var(--berry-dark); }
+.keri-theme .promo--compact .btn--berry { color: var(--berry); border-color: #e8b9ce; background: white; }
+.keri-theme .promo--compact .btn--berry:hover { color: white; background: var(--berry); }
+.keri-theme .promo-grid .promo { border-top: 4px solid #bad7c9; }
+.keri-theme .section__title { font-size: 28px; font-weight: 500; }
+.keri-theme .dir__title { font-size: 20px; }
+.keri-theme .dir__ico { background: var(--green-light); color: var(--green); border-radius: 50%; }
+.keri-theme .dir__price { color: var(--green); }
+.keri-theme .page-head { padding: 22px 0 26px; border-bottom: 0; }
+.keri-theme .crumbs { margin-bottom: 14px; }
+.keri-theme .page-title { color: var(--berry); font-size: 32px; font-weight: 400; line-height: 1.2; }
+.keri-theme .page-lead { font-size: 16px; margin-top: 10px; max-width: 75ch; }
+.keri-theme .price-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 36px; align-items: start; padding-top: 8px; padding-bottom: 32px; }
+.keri-theme .price-sidebar { position: sticky; top: 144px; padding-top: 4px; }
+.keri-theme .price-sidebar__title { font-size: 14px; font-weight: 500; color: var(--muted); margin-bottom: 12px; }
+.keri-theme .price-sidebar__filters { display: flex; flex-direction: column; overflow: visible; gap: 8px; padding: 0; }
+.keri-theme .price-sidebar .chip { justify-content: flex-start; white-space: normal; text-align: left; padding: 11px 16px; line-height: 1.4; font-size: 15px; background: var(--green-light); border-color: transparent; border-radius: 8px; }
+.keri-theme .price-sidebar .chip:hover { border-color: var(--green); }
+.keri-theme .price-sidebar .chip.is-active { background: var(--green); color: white; }
+.keri-theme .price-sidebar__help { font-size: 14px; color: var(--muted); margin: 24px 0 4px; }
+.keri-theme .price-content { min-width: 0; }
+.keri-theme .price-content .pricebar { position: static; background: white; border: 0; }
+.keri-theme .pricebar__in { padding: 0; }
+.keri-theme .price-content .search { flex: 1; }
+.keri-theme .search__input { border-radius: 28px; border-color: var(--line); min-height: 52px; font-size: 15px; }
+.keri-theme .search__input:focus { border-color: var(--green); outline: 2px solid var(--green-light); }
+.keri-theme .prices { padding-top: 16px; }
+.keri-theme .prices__count { font-size: 13px; }
+.keri-theme .pl { margin-bottom: 28px; }
+.keri-theme .pl__cat { font-size: 24px; font-weight: 600; margin: 8px 0 16px; padding-bottom: 12px; border-bottom: 2px solid #91bbaa; }
+.keri-theme .pl__cat .ico { display: none; }
+.keri-theme .pl__group { margin-top: 16px; padding: 20px 22px 6px; border-radius: 12px; }
+.keri-theme .pl__title { font-size: 18px; font-weight: 600; }
+.keri-theme .row { grid-template-columns: minmax(0, 1fr) minmax(180px, 270px) 100px; gap: 12px 18px; padding: 13px 0; }
+.keri-theme .row__title { font-size: 15px; font-weight: 450; }
+.keri-theme .row__single { font-size: 15px; }
+.keri-theme .row__note, .keri-theme .vars__row { font-size: 13px; }
+.keri-theme .vars__row { background: none; }
+.keri-theme .row__book { border-color: #dcb1c4; min-height: 34px; border-radius: 18px; padding: 0 10px; font-weight: 500; }
+.keri-theme .site-footer { background: #edf4f0; color: var(--muted); border-top: 1px solid var(--line); }
+.keri-theme .logo--light, .keri-theme .footer__h, .keri-theme .footer__phones a, .keri-theme .footer__hours span { color: var(--ink); }
+.keri-theme .logo--light .logo__sub { color: var(--muted); }
+.keri-theme .footer__col a:hover, .keri-theme .footer__msg a:hover, .keri-theme .footer__legal a { color: var(--berry); }
+.keri-theme .footer__legal { color: var(--muted); border-color: #c7dbce; }
+.keri-theme .visit__map-btn { background: var(--green-light); color: var(--green); border: 1px solid #c5dccd; }
+.keri-theme .visit__map-btn .ico, .keri-theme .visit__map-btn small { color: var(--green); }
+.keri-theme .book__title { font-weight: 500; font-size: 25px; }
+.keri-theme .dock__btn--main { background: var(--green); }
+.keri-theme .cat-aside__title { color: var(--green); }
+@media (max-width: 1100px) and (min-width: 961px) {
+  .keri-theme .price-layout { grid-template-columns: 185px minmax(0,1fr); gap: 22px; }
+  .keri-theme .row { grid-template-columns: minmax(0,1fr) minmax(160px,210px) 92px; gap: 10px; }
+}
+@media (max-width: 960px) {
+  .keri-theme .mainbar__in { min-height: 64px; }
+  .keri-theme .price-layout { grid-template-columns: minmax(0,1fr); gap: 20px; }
+  .keri-theme .price-sidebar { position: static; }
+  .keri-theme .price-sidebar__title, .keri-theme .price-sidebar__help, .keri-theme .price-sidebar > .link { display: none; }
+  .keri-theme .price-sidebar__filters { flex-direction: row; overflow-x: auto; gap: 8px; padding: 2px 2px 8px; }
+  .keri-theme .price-sidebar .chip { flex: 0 0 auto; white-space: nowrap; }
+  .keri-theme .hero { padding: 32px 0; }
+  .keri-theme .hero__grid { gap: 28px; }
+}
+@media (max-width: 640px) {
+  .keri-theme .logo__word { font-size: 25px; }
+  .keri-theme .hero__title { font-size: 29px; }
+  .keri-theme .hero__lead { font-size: 16px; }
+  .keri-theme .finder__input { font-size: 15px; }
+  .keri-theme .finder__btn { padding: 0 14px; }
+  .keri-theme .offer { margin: 0; border-radius: 14px; padding: 18px; }
+  .keri-theme .page-title { font-size: 28px; }
+  .keri-theme .page-head { padding-bottom: 18px; }
+  .keri-theme .row { grid-template-columns: minmax(0,1fr) auto; gap: 8px 10px; }
+  .keri-theme .pl__group { margin-left: 0; margin-right: 0; padding: 16px 14px 4px; border: 1px solid var(--line); border-radius: 12px; }
+  .keri-theme .pl__cat { font-size: 22px; }
+  .keri-theme .section__title { font-size: 25px; }
+}
+@media print { .keri-theme .price-sidebar { display: none; } .keri-theme .price-layout { display: block; } }
