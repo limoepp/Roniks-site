@@ -10,6 +10,7 @@ $nav = [
     '/ceny/' => 'Цены',
     '/akcii/' => 'Акции',
     '/o-salone/' => 'О салоне',
+    '/o-salone/#gallery' => 'Фото салона',
     '/kontakty/' => 'Контакты',
 ];
 $livePromos = count(promos_live());
@@ -29,10 +30,9 @@ $tg = tg_href();
 <meta property="og:description" content="<?= e($desc) ?>">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
-<meta name="theme-color" content="#f0f7f4">
+<meta name="theme-color" content="#ffffff">
 <link rel="icon" href="<?= e(asset('assets/img/favicon.svg')) ?>" type="image/svg+xml">
-<link rel="preload" href="<?= e(url('/assets/fonts/golos-text-cyrillic-wght-normal.woff2')) ?>" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="<?= e(url('/assets/fonts/literata-cyrillic-opsz-normal.woff2')) ?>" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="<?= e(url('/assets/fonts/montserrat-cyrillic.woff2')) ?>" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="<?= e(asset('assets/css/site.css')) ?>">
 <link rel="stylesheet" href="<?= e(asset('assets/css/keri.css')) ?>">
 <script type="application/ld+json"><?= json_encode([
@@ -49,25 +49,20 @@ $tg = tg_href();
 <a class="skip" href="#main">Перейти к содержанию</a>
 
 <header class="site-header">
-  <div class="topbar">
-    <div class="wrap topbar__in">
-      <a class="topbar__item" href="<?= e($s['map_link']) ?>" target="_blank" rel="noopener"><?= icon('pin') ?><span><?= e($s['city'] . ', ' . $s['address']) ?></span></a>
-      <span class="topbar__item"><?= icon('clock') ?><span><?= e(hours_short()) ?></span></span>
-      <span class="topbar__spacer"></span>
-      <?php foreach ($s['phones'] as $i => $p): if ($i > 1) break; ?>
-        <a class="topbar__item topbar__phone" href="<?= e(tel_href($p['number'])) ?>"><?= e($p['number']) ?></a>
-      <?php endforeach; ?>
-      <?php if ($wa): ?><a class="topbar__icon" href="<?= e($wa) ?>" target="_blank" rel="noopener" aria-label="Написать в WhatsApp"><?= icon('whatsapp') ?></a><?php endif; ?>
-      <?php if ($tg): ?><a class="topbar__icon" href="<?= e($tg) ?>" target="_blank" rel="noopener" aria-label="Написать в Telegram"><?= icon('telegram') ?></a><?php endif; ?>
-      <?php if (!empty($s['vk'])): ?><a class="topbar__icon" href="<?= e($s['vk']) ?>" target="_blank" rel="noopener" aria-label="Мы во ВКонтакте"><?= icon('vk') ?></a><?php endif; ?>
+  <div class="wrap identity-bar">
+    <a class="logo" href="<?= e(url('/')) ?>" aria-label="<?= e($s['full_name']) ?> — на главную"><span class="logo__sub">САЛОН КРАСОТЫ</span><span class="logo__word"><?= e($s['name']) ?></span></a>
+    <div class="header-address"><span><?= e($s['city'] . ', ' . $s['address']) ?></span><a href="<?= e($s['map_link']) ?>" target="_blank" rel="noopener">Посмотреть на карте</a></div>
+    <div class="header-hours"><span><?= e(hours_short()) ?></span><small>Ждём вас в салоне</small></div>
+    <div class="header-phone"><a href="<?= e(tel_href($phone)) ?>"><?= e($phone) ?></a><button type="button" data-book="">Заказать звонок</button></div>
+    <div class="header-social">
+      <?php if ($tg): ?><a href="<?= e($tg) ?>" target="_blank" rel="noopener" aria-label="Написать в Telegram"><?= icon('telegram') ?></a><?php endif; ?>
+      <?php if ($wa): ?><a href="<?= e($wa) ?>" target="_blank" rel="noopener" aria-label="Написать в WhatsApp"><?= icon('whatsapp') ?></a><?php endif; ?>
     </div>
+    <button class="btn header-book" type="button" data-book="">Запись в салон <span aria-hidden="true">→</span></button>
   </div>
   <div class="mainbar">
     <div class="wrap mainbar__in">
-      <a class="logo" href="<?= e(url('/')) ?>" aria-label="<?= e($s['full_name']) ?> — на главную">
-        <span class="logo__word"><?= e($s['name']) ?></span>
-        <span class="logo__sub">салон красоты с <?= e($s['since']) ?> года</span>
-      </a>
+      <a class="logo mobile-logo" href="<?= e(url('/')) ?>" aria-label="Роникс — на главную"><span class="logo__sub">САЛОН КРАСОТЫ</span><span class="logo__word"><?= e($s['name']) ?></span></a>
       <nav class="nav" id="site-nav" aria-label="Основное меню">
         <ul class="nav__list">
           <li class="nav__item nav__item--mega">
@@ -99,7 +94,7 @@ $tg = tg_href();
         </div>
       </nav>
       <a class="mainbar__search" href="<?= e(url('/ceny/')) ?>" aria-label="Найти услугу в прайсе"><?= icon('search') ?></a>
-      <button class="btn btn--berry mainbar__cta" type="button" data-book="">Записаться</button>
+
       <button class="burger" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню"><?= icon('menu') ?></button>
     </div>
   </div>
@@ -128,6 +123,7 @@ $tg = tg_href();
         <li><a href="<?= e(url('/ceny/')) ?>">Цены</a></li>
         <li><a href="<?= e(url('/akcii/')) ?>">Акции</a></li>
         <li><a href="<?= e(url('/o-salone/')) ?>">О салоне</a></li>
+        <li><a href="<?= e(url('/o-salone/#gallery')) ?>">Фото салона</a></li>
         <li><a href="<?= e(url('/kontakty/')) ?>">Контакты</a></li>
         <?php foreach ($s['sister_links'] ?? [] as $l): if (empty($l['url'])) continue; ?>
           <li><a href="<?= e($l['url']) ?>" target="_blank" rel="noopener"><?= e($l['title']) ?></a></li>
@@ -172,5 +168,6 @@ $tg = tg_href();
 </div>
 
 <script src="<?= e(asset('assets/js/site.js')) ?>" defer></script>
+<script src="<?= e(asset('assets/js/keri.js')) ?>" defer></script>
 </body>
 </html>

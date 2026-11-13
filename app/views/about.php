@@ -39,17 +39,16 @@ $photos = gallery();
 </section>
 <?php endif; ?>
 
-<?php if ($photos): ?>
-<section class="section" aria-labelledby="gal-h">
+<section class="section interior-section" id="gallery" aria-labelledby="gal-h">
   <div class="wrap">
-    <h2 class="section__title" id="gal-h">Как у нас</h2>
-    <ul class="gallery">
-      <?php foreach ($photos as $ph): ?>
-        <li><img src="<?= e(upload_url($ph['file'])) ?>" alt="<?= e($ph['alt'] ?? 'Интерьер салона') ?>" loading="lazy"></li>
-      <?php endforeach; ?>
-    </ul>
+    <div class="section__head"><h2 class="section__title" id="gal-h">Пространство салона</h2></div>
+    <p class="section-intro">Зона встречи гостей, рабочие места и детали интерьера — знакомимся до первого визита.</p>
+    <?php if ($photos): ?>
+    <ul class="gallery"><?php foreach ($photos as $ph): ?><li><img src="<?= e(upload_url($ph['file'])) ?>" alt="<?= e($ph['alt'] ?? 'Интерьер салона') ?>" loading="lazy"></li><?php endforeach; ?></ul>
+    <?php else: ?>
+    <div class="interior-grid"><?php foreach (['Зона встречи гостей', 'Парикмахерский зал', 'Зона маникюра'] as $i => $label): ?><?= view('partials/salon-photo', ['index' => $i, 'label' => $label]) ?><?php endforeach; ?></div>
+    <?php endif; ?>
   </div>
 </section>
-<?php endif; ?>
 
 <?= view('partials/visit') ?>

@@ -10,6 +10,7 @@ $hTag = $showCatTitle ? 'h3' : 'h2';
 <section class="pl" id="cat-<?= e($cat['id']) ?>" data-cat="<?= e($cat['id']) ?>">
   <?php if ($showCatTitle): ?>
     <h2 class="pl__cat"><a href="<?= e(url('/uslugi/' . $cat['slug'] . '/')) ?>"><?= icon($cat['icon'] ?? 'spark') ?><?= e($cat['title']) ?></a></h2>
+    <div class="price-columns" aria-hidden="true"><span>Наименование услуги</span><span>Варианты и цена</span><span>Запись</span></div>
   <?php endif; ?>
   <?php foreach ($cat['groups'] as $g): ?>
     <div class="pl__group<?= !empty($g['extra']) ? ' pl__group--extra' : '' ?>" id="<?= e($g['id']) ?>" data-group>
