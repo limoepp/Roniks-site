@@ -1,0 +1,23 @@
+# Private configuration, authentication, requests and runtime files
+/data/*
+!/data/.htaccess
+!/data/*.example.json
+!/data/services.json
+!/data/promos.json
+/uploads/*
+!/uploads/.htaccess
+!/uploads/.gitkeep
+/preview/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.lock
+.DS_Store
+Thumbs.db
+/.idea/
+/.vscode/
+/vendor/
+/node_modules/
+

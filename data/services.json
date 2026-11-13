@@ -1,0 +1,2470 @@
+{
+ "updated_at": "2026-11-11T13:30:00+03:00",
+ "categories": [
+  {
+   "id": "hair",
+   "slug": "parikmaherskij-zal",
+   "title": "Парикмахерский зал",
+   "icon": "scissors",
+   "short": "Стрижки, окрашивание, укладки, причёски и уход за волосами",
+   "description": "Женские, мужские и детские стрижки, окрашивание в один тон и сложные техники, укладки, вечерние и свадебные причёски. Работаем на косметике Lebel, GREYMY, Matrix, Igora и Vitality’s.",
+   "groups": [
+    {
+     "id": "g6",
+     "title": "Женские стрижки",
+     "note": "С мытьём головы и сушкой, если не указано иное",
+     "extra": false,
+     "items": [
+      {
+       "id": "s1",
+       "name": "Модельная стрижка",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1700
+        },
+        {
+         "label": "средние (от 15 см)",
+         "price": 2100
+        },
+        {
+         "label": "длинные (от 25 см)",
+         "price": 2400
+        }
+       ]
+      },
+      {
+       "id": "s2",
+       "name": "Подравнять кончики одним срезом",
+       "note": "без мытья",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "тонкие волосы",
+         "price": 700
+        },
+        {
+         "label": "густые волосы",
+         "price": 900
+        }
+       ]
+      },
+      {
+       "id": "s3",
+       "name": "Стрижка чёлки",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "обычная",
+         "price": 450
+        },
+        {
+         "label": "густые волосы",
+         "price": 600
+        }
+       ]
+      },
+      {
+       "id": "s4",
+       "name": "Креативная стрижка",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 2500,
+       "variants": []
+      },
+      {
+       "id": "s5",
+       "name": "Стрижка «Каре»",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 2500,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g12",
+     "title": "Мужские стрижки",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s7",
+       "name": "Модельная стрижка",
+       "note": "мытьё, стрижка, сушка",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1000
+        },
+        {
+         "label": "средние",
+         "price": 1100
+        },
+        {
+         "label": "длинные",
+         "price": 1200
+        }
+       ]
+      },
+      {
+       "id": "s8",
+       "name": "Стрижка под машинку",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "без насадки",
+         "price": 300
+        },
+        {
+         "label": "1 насадка",
+         "price": 500
+        },
+        {
+         "label": "2 насадки",
+         "price": 700
+        }
+       ]
+      },
+      {
+       "id": "s9",
+       "name": "Стрижка бороды",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 500,
+       "variants": []
+      },
+      {
+       "id": "s10",
+       "name": "Стрижка усов",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      },
+      {
+       "id": "s11",
+       "name": "Стрижка бровей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 100,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g15",
+     "title": "Детские стрижки",
+     "note": "Для детей до 12 лет, без мытья головы",
+     "extra": false,
+     "items": [
+      {
+       "id": "s13",
+       "name": "Детская модельная стрижка",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 800,
+       "variants": []
+      },
+      {
+       "id": "s14",
+       "name": "Детская креативная стрижка",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1000,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g23",
+     "title": "Укладки и сушка",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s16",
+       "name": "Укладка феном",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1000
+        },
+        {
+         "label": "средние",
+         "price": 1100
+        },
+        {
+         "label": "длинные",
+         "price": 1300
+        },
+        {
+         "label": "густые, кудрявые",
+         "price": 1500
+        }
+       ]
+      },
+      {
+       "id": "s17",
+       "name": "Укладка на бигуди",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1100
+        },
+        {
+         "label": "средние",
+         "price": 1200
+        },
+        {
+         "label": "длинные",
+         "price": 1400
+        }
+       ]
+      },
+      {
+       "id": "s18",
+       "name": "Укладка щипцами, утюжком или «гофре»",
+       "note": "без мытья",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 900
+        },
+        {
+         "label": "средние",
+         "price": 1100
+        },
+        {
+         "label": "длинные",
+         "price": 1300
+        },
+        {
+         "label": "густые, кудрявые",
+         "price": 1500
+        }
+       ]
+      },
+      {
+       "id": "s19",
+       "name": "Укладка щипцами — одна прядь",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      },
+      {
+       "id": "s20",
+       "name": "Гладкая укладка гелем",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 300,
+       "variants": []
+      },
+      {
+       "id": "s21",
+       "name": "Сушка расчёской без брашинга",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "очень короткие",
+         "price": 200
+        },
+        {
+         "label": "короткие",
+         "price": 400
+        },
+        {
+         "label": "средние",
+         "price": 700
+        },
+        {
+         "label": "длинные",
+         "price": 900
+        }
+       ]
+      },
+      {
+       "id": "s22",
+       "name": "Самостоятельная сушка феном",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g27",
+     "title": "Причёски и плетение",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s24",
+       "name": "Праздничная, вечерняя причёска",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1800
+        },
+        {
+         "label": "средние, полусобранная",
+         "price": 2300
+        },
+        {
+         "label": "средние, со шпильками",
+         "price": 2800
+        },
+        {
+         "label": "длинные",
+         "price": 3000
+        }
+       ]
+      },
+      {
+       "id": "s25",
+       "name": "Свадебная причёска",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 2500
+        },
+        {
+         "label": "средние, сложная укладка",
+         "price": 3100
+        },
+        {
+         "label": "длинные, с фатой",
+         "price": 4500
+        }
+       ]
+      },
+      {
+       "id": "s26",
+       "name": "Плетение кос",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "простая коса",
+         "price": 500
+        },
+        {
+         "label": "сложная коса",
+         "price": 1000
+        },
+        {
+         "label": "вечернее плетение",
+         "price": 1500
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g35",
+     "title": "Окрашивание",
+     "note": "Стоимость красителя оплачивается отдельно — см. «Расход материалов»",
+     "extra": false,
+     "items": [
+      {
+       "id": "s28",
+       "name": "Окрашивание Lebel",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "корни",
+         "price": 2700
+        },
+        {
+         "label": "короткие",
+         "price": 3000
+        },
+        {
+         "label": "средние",
+         "price": 3600
+        },
+        {
+         "label": "длинные",
+         "price": 4200
+        },
+        {
+         "label": "очень длинные",
+         "price": 5500
+        }
+       ]
+      },
+      {
+       "id": "s29",
+       "name": "Окрашивание в один тон (Igora, Matrix)",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "корни частично (височно-теменная зона)",
+         "price": 1500
+        },
+        {
+         "label": "корни",
+         "price": 1800
+        },
+        {
+         "label": "короткие",
+         "price": 1900
+        },
+        {
+         "label": "средние",
+         "price": 2000
+        },
+        {
+         "label": "длинные (от 25 см)",
+         "price": 2200
+        },
+        {
+         "label": "длинные (от 45 см)",
+         "price": 2500
+        }
+       ]
+      },
+      {
+       "id": "s30",
+       "name": "Тонирование",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1500
+        },
+        {
+         "label": "средние",
+         "price": 1800
+        },
+        {
+         "label": "длинные",
+         "price": 2000
+        },
+        {
+         "label": "от 45 см",
+         "price": 2500
+        }
+       ]
+      },
+      {
+       "id": "s31",
+       "name": "Цветное окрашивание",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 2500
+        },
+        {
+         "label": "средние",
+         "price": 3500
+        },
+        {
+         "label": "длинные",
+         "price": 5000
+        },
+        {
+         "label": "кончики (от 10 см)",
+         "price": 2500
+        }
+       ]
+      },
+      {
+       "id": "s32",
+       "name": "Глазирование блеском Matrix",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1600
+        },
+        {
+         "label": "средние",
+         "price": 1700
+        },
+        {
+         "label": "длинные",
+         "price": 2000
+        }
+       ]
+      },
+      {
+       "id": "s33",
+       "name": "Блондирование",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "корни",
+         "price": 1700
+        },
+        {
+         "label": "короткие",
+         "price": 1900
+        },
+        {
+         "label": "средние",
+         "price": 2200
+        },
+        {
+         "label": "длинные",
+         "price": 2400
+        },
+        {
+         "label": "очень длинные",
+         "price": 2800
+        }
+       ]
+      },
+      {
+       "id": "s34",
+       "name": "Смывка старой краски",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1200
+        },
+        {
+         "label": "средние",
+         "price": 1500
+        },
+        {
+         "label": "длинные",
+         "price": 1900
+        },
+        {
+         "label": "от 45 см",
+         "price": 2200
+        },
+        {
+         "label": "по длине",
+         "price": 1800
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g41",
+     "title": "Мелирование и сложное окрашивание",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s36",
+       "name": "Мелирование «фольга» (Igora, Vitality’s)",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "корни, редкое",
+         "price": 3000
+        },
+        {
+         "label": "корни, частое",
+         "price": 3800
+        },
+        {
+         "label": "короткие",
+         "price": 3500
+        },
+        {
+         "label": "средние, редкое",
+         "price": 4000
+        },
+        {
+         "label": "средние, частое",
+         "price": 4800
+        },
+        {
+         "label": "длинные, редкое",
+         "price": 5000
+        },
+        {
+         "label": "длинные, частое",
+         "price": 5500
+        },
+        {
+         "label": "густые, редкое",
+         "price": 5800
+        },
+        {
+         "label": "густые, частое",
+         "price": 6500
+        }
+       ]
+      },
+      {
+       "id": "s37",
+       "name": "Мелирование — одна прядь",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 350,
+       "variants": []
+      },
+      {
+       "id": "s38",
+       "name": "Мелирование «шапочка»",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1900
+        },
+        {
+         "label": "средние",
+         "price": 2300
+        }
+       ]
+      },
+      {
+       "id": "s39",
+       "name": "Колорирование «Омбре», «Шатуш»",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 3000
+        },
+        {
+         "label": "средние",
+         "price": 3900
+        },
+        {
+         "label": "длинные",
+         "price": 5100
+        }
+       ]
+      },
+      {
+       "id": "s40",
+       "name": "Окрашивание «Шатуш»",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 3000
+        },
+        {
+         "label": "средние, редкое",
+         "price": 3500
+        },
+        {
+         "label": "средние, частое",
+         "price": 4000
+        },
+        {
+         "label": "длинные, редкое",
+         "price": 4500
+        },
+        {
+         "label": "длинные, частое",
+         "price": 5500
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g43",
+     "title": "Химическая завивка",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s42",
+       "name": "Химическая завивка",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 2200
+        },
+        {
+         "label": "средние",
+         "price": 2700
+        },
+        {
+         "label": "длинные",
+         "price": 3200
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g58",
+     "title": "Уход и восстановление волос",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s44",
+       "name": "Коллагенирование волос",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 2500
+        },
+        {
+         "label": "средние",
+         "price": 3000
+        },
+        {
+         "label": "длинные",
+         "price": 3500
+        }
+       ]
+      },
+      {
+       "id": "s45",
+       "name": "SPA-восстановление KERATIN, GREYMY",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 2000
+        },
+        {
+         "label": "средние",
+         "price": 3500
+        },
+        {
+         "label": "длинные",
+         "price": 5000
+        }
+       ]
+      },
+      {
+       "id": "s46",
+       "name": "Программа «Разглаживание и дисциплина», GREYMY",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 3500
+        },
+        {
+         "label": "средние",
+         "price": 4900
+        },
+        {
+         "label": "длинные",
+         "price": 5900
+        }
+       ]
+      },
+      {
+       "id": "s47",
+       "name": "Увлажняющий уход «Бриллиантовое сияние», GREYMY",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1100
+        },
+        {
+         "label": "средние",
+         "price": 1900
+        },
+        {
+         "label": "длинные",
+         "price": 6500
+        }
+       ]
+      },
+      {
+       "id": "s48",
+       "name": "Пилинг кожи головы DETOX, GREYMY",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1200
+        },
+        {
+         "label": "средние",
+         "price": 1500
+        },
+        {
+         "label": "длинные",
+         "price": 1900
+        }
+       ]
+      },
+      {
+       "id": "s49",
+       "name": "Комплексное восстановление La’Dor",
+       "note": "1 ампула",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 850,
+       "variants": []
+      },
+      {
+       "id": "s50",
+       "name": "Кератиновый уход Intensive, Vitality’s",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 2000
+        },
+        {
+         "label": "средние",
+         "price": 2200
+        },
+        {
+         "label": "длинные",
+         "price": 2800
+        }
+       ]
+      },
+      {
+       "id": "s51",
+       "name": "Уход с керамидами, Vitality’s",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1300,
+       "variants": []
+      },
+      {
+       "id": "s52",
+       "name": "Уход против выпадения волос, Vitality’s",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "0,5 ампулы",
+         "price": 1700
+        },
+        {
+         "label": "густые волосы, 1 ампула",
+         "price": 2300
+        }
+       ]
+      },
+      {
+       "id": "s53",
+       "name": "«Абсолютное счастье», Lebel",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "средние",
+         "price": 3900
+        },
+        {
+         "label": "длинные",
+         "price": 4900
+        },
+        {
+         "label": "очень длинные",
+         "price": 5500
+        }
+       ]
+      },
+      {
+       "id": "s54",
+       "name": "«Блеск и сила», Lebel",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "средние",
+         "price": 2400
+        },
+        {
+         "label": "длинные",
+         "price": 2800
+        },
+        {
+         "label": "очень длинные",
+         "price": 3200
+        }
+       ]
+      },
+      {
+       "id": "s55",
+       "name": "«Полезное мытьё», Lebel",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1200
+        },
+        {
+         "label": "средние",
+         "price": 1600
+        },
+        {
+         "label": "длинные",
+         "price": 2000
+        },
+        {
+         "label": "очень длинные",
+         "price": 2500
+        }
+       ]
+      },
+      {
+       "id": "s56",
+       "name": "«Detox Mint», Lebel",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1300
+        },
+        {
+         "label": "средние",
+         "price": 1800
+        },
+        {
+         "label": "длинные",
+         "price": 2200
+        },
+        {
+         "label": "очень длинные",
+         "price": 2700
+        }
+       ]
+      },
+      {
+       "id": "s57",
+       "name": "«IAU Serum Protection», Lebel",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 1000
+        },
+        {
+         "label": "средние",
+         "price": 1200
+        },
+        {
+         "label": "длинные",
+         "price": 1500
+        },
+        {
+         "label": "очень длинные",
+         "price": 1900
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g68",
+     "title": "Мытьё, маски и бальзамы",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s59",
+       "name": "Мытьё головы",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 100
+        },
+        {
+         "label": "средние",
+         "price": 150
+        },
+        {
+         "label": "длинные",
+         "price": 200
+        }
+       ]
+      },
+      {
+       "id": "s60",
+       "name": "Бальзам для волос",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 80
+        },
+        {
+         "label": "средние",
+         "price": 120
+        },
+        {
+         "label": "длинные",
+         "price": 170
+        }
+       ]
+      },
+      {
+       "id": "s61",
+       "name": "Мытьё GREYMY: шампунь и бальзам",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 400
+        },
+        {
+         "label": "средние",
+         "price": 500
+        },
+        {
+         "label": "длинные",
+         "price": 700
+        }
+       ]
+      },
+      {
+       "id": "s62",
+       "name": "Мытьё Lebel: шампунь и бальзам",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "короткие",
+         "price": 500
+        },
+        {
+         "label": "средние",
+         "price": 600
+        },
+        {
+         "label": "длинные",
+         "price": 800
+        }
+       ]
+      },
+      {
+       "id": "s63",
+       "name": "Уход после окрашивания, Lebel",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "средние",
+         "price": 700
+        },
+        {
+         "label": "длинные",
+         "price": 900
+        }
+       ]
+      },
+      {
+       "id": "s64",
+       "name": "Ампула для восстановления",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 шт.",
+       "from": false,
+       "hidden": false,
+       "price": 550,
+       "variants": []
+      },
+      {
+       "id": "s65",
+       "name": "Маска",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 400,
+       "variants": []
+      },
+      {
+       "id": "s66",
+       "name": "Маска GREYMY, Lebel или Vitality’s",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 800,
+       "variants": []
+      },
+      {
+       "id": "s67",
+       "name": "Уход косметикой клиента",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 300,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g77",
+     "title": "Дополнительно и расход материалов",
+     "note": "",
+     "extra": true,
+     "items": [
+      {
+       "id": "s69",
+       "name": "За сложность укладки",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 250,
+       "variants": []
+      },
+      {
+       "id": "s70",
+       "name": "Нанесение укладочных средств",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 100,
+       "variants": []
+      },
+      {
+       "id": "s71",
+       "name": "Усиление блеска волос",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 100,
+       "variants": []
+      },
+      {
+       "id": "s72",
+       "name": "Краситель Matrix SoColor Cult",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 г",
+       "from": false,
+       "hidden": false,
+       "price": 12,
+       "variants": []
+      },
+      {
+       "id": "s73",
+       "name": "Краситель Matrix",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 г",
+       "from": false,
+       "hidden": false,
+       "price": 15,
+       "variants": []
+      },
+      {
+       "id": "s74",
+       "name": "Тонирующий краситель Matrix Sync",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 г",
+       "from": false,
+       "hidden": false,
+       "price": 15,
+       "variants": []
+      },
+      {
+       "id": "s75",
+       "name": "Краситель Lebel Materia, Materia G, Materia µ",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 г",
+       "from": false,
+       "hidden": false,
+       "price": 20,
+       "variants": []
+      },
+      {
+       "id": "s76",
+       "name": "Ампула Vitality’s",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 шт.",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      }
+     ]
+    }
+   ],
+   "image": "",
+   "hidden": false,
+   "price_from": 800
+  },
+  {
+   "id": "nails",
+   "slug": "nogtevoj-servis",
+   "title": "Ногтевой сервис",
+   "icon": "polish",
+   "short": "Маникюр, педикюр, покрытие Shellac, наращивание и медицинский педикюр",
+   "description": "Классический, аппаратный и комбинированный маникюр и педикюр, покрытие Shellac CND, Kodi, Beautix, наращивание и укрепление ногтей, медицинский педикюр.",
+   "groups": [
+    {
+     "id": "g85",
+     "title": "Маникюр",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s78",
+       "name": "Гигиенический маникюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "женский",
+         "price": 800
+        },
+        {
+         "label": "мужской",
+         "price": 1000
+        }
+       ]
+      },
+      {
+       "id": "s79",
+       "name": "Европейский маникюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 850,
+       "variants": []
+      },
+      {
+       "id": "s80",
+       "name": "Комбинированный маникюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 950,
+       "variants": []
+      },
+      {
+       "id": "s81",
+       "name": "Аппаратный маникюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1000,
+       "variants": []
+      },
+      {
+       "id": "s82",
+       "name": "Горячий маникюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1150,
+       "variants": []
+      },
+      {
+       "id": "s83",
+       "name": "Экспресс-маникюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 600,
+       "variants": []
+      },
+      {
+       "id": "s84",
+       "name": "SPA-уход за руками",
+       "note": "скраб, крем, массаж",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 500,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g99",
+     "title": "Покрытие ногтей",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s86",
+       "name": "Покрытие Shellac CND, Kodi, Beautix",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 900,
+       "variants": []
+      },
+      {
+       "id": "s87",
+       "name": "Французское покрытие Shellac CND",
+       "note": "доплата к покрытию",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 120,
+       "variants": []
+      },
+      {
+       "id": "s88",
+       "name": "Покрытие гель-лаком или Shellac — один ноготь",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 90,
+       "variants": []
+      },
+      {
+       "id": "s89",
+       "name": "Покрытие гель-лаком клиента",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 400,
+       "variants": []
+      },
+      {
+       "id": "s90",
+       "name": "Покрытие Vinylux",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 350,
+       "variants": []
+      },
+      {
+       "id": "s91",
+       "name": "Покрытие лаком клиента",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      },
+      {
+       "id": "s92",
+       "name": "Французский маникюр (покрытие)",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 500,
+       "variants": []
+      },
+      {
+       "id": "s93",
+       "name": "Бесцветный лак",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 100,
+       "variants": []
+      },
+      {
+       "id": "s94",
+       "name": "Втирка",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 100,
+       "variants": []
+      },
+      {
+       "id": "s95",
+       "name": "Снятие Shellac CND",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 350,
+       "variants": []
+      },
+      {
+       "id": "s96",
+       "name": "Снятие гель-лака или Shellac — один ноготь",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 35,
+       "variants": []
+      },
+      {
+       "id": "s97",
+       "name": "Снятие лака",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 100,
+       "variants": []
+      },
+      {
+       "id": "s98",
+       "name": "Снятие лака Vinylux",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 300,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g103",
+     "title": "Дизайн ногтей",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s100",
+       "name": "Художественная роспись",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 ноготь",
+       "from": false,
+       "hidden": false,
+       "price": 90,
+       "variants": []
+      },
+      {
+       "id": "s101",
+       "name": "Украшение ногтя — полное покрытие",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 ноготь",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      },
+      {
+       "id": "s102",
+       "name": "Украшение ногтя — декор",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 ноготь",
+       "from": false,
+       "hidden": false,
+       "price": 50,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g115",
+     "title": "Наращивание, укрепление и ремонт",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s104",
+       "name": "Наращивание ногтей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 2500,
+       "variants": []
+      },
+      {
+       "id": "s105",
+       "name": "Наращивание — один ноготь",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 250,
+       "variants": []
+      },
+      {
+       "id": "s106",
+       "name": "Коррекция нарощенных ногтей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 2000,
+       "variants": []
+      },
+      {
+       "id": "s107",
+       "name": "Снятие нарощенных ногтей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 700,
+       "variants": []
+      },
+      {
+       "id": "s108",
+       "name": "Укрепление гелем или полигелем",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 800,
+       "variants": []
+      },
+      {
+       "id": "s109",
+       "name": "Акриловое укрепление ногтей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 400,
+       "variants": []
+      },
+      {
+       "id": "s110",
+       "name": "Выравнивание ногтей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 300,
+       "variants": []
+      },
+      {
+       "id": "s111",
+       "name": "Ремонт ногтя акриловой пудрой",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 ноготь",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      },
+      {
+       "id": "s112",
+       "name": "Лечение ногтей IBX",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 500,
+       "variants": []
+      },
+      {
+       "id": "s113",
+       "name": "Полировка ногтей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 100,
+       "variants": []
+      },
+      {
+       "id": "s114",
+       "name": "Коррекция формы ногтей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 150,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g130",
+     "title": "Педикюр",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s116",
+       "name": "Гигиенический педикюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "женский",
+         "price": 1450
+        },
+        {
+         "label": "мужской",
+         "price": 1600
+        }
+       ]
+      },
+      {
+       "id": "s117",
+       "name": "Комбинированный педикюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1600,
+       "variants": []
+      },
+      {
+       "id": "s118",
+       "name": "Аппаратный педикюр",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1700,
+       "variants": []
+      },
+      {
+       "id": "s119",
+       "name": "Смарт-педикюр (аппаратный)",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 2200,
+       "variants": []
+      },
+      {
+       "id": "s120",
+       "name": "Французский педикюр (покрытие)",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 450,
+       "variants": []
+      },
+      {
+       "id": "s121",
+       "name": "Покрытие Vinylux",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 380,
+       "variants": []
+      },
+      {
+       "id": "s122",
+       "name": "Покрытие лаком клиента",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 250,
+       "variants": []
+      },
+      {
+       "id": "s123",
+       "name": "Покрытие гель-лаком клиента",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 450,
+       "variants": []
+      },
+      {
+       "id": "s124",
+       "name": "Полировка ногтей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      },
+      {
+       "id": "s125",
+       "name": "Снятие лака",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 100,
+       "variants": []
+      },
+      {
+       "id": "s126",
+       "name": "Снятие лака Vinylux",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 300,
+       "variants": []
+      },
+      {
+       "id": "s127",
+       "name": "SPA-уход за ногами",
+       "note": "скраб, крем, массаж",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 500,
+       "variants": []
+      },
+      {
+       "id": "s128",
+       "name": "Массаж ног",
+       "note": "",
+       "duration": "10 мин",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 300,
+       "variants": []
+      },
+      {
+       "id": "s129",
+       "name": "Одноразовый набор для педикюра",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "маленький",
+         "price": 120
+        },
+        {
+         "label": "большой",
+         "price": 160
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g138",
+     "title": "Медицинский педикюр",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s131",
+       "name": "Медицинский педикюр",
+       "note": "без обработки стопы",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1500,
+       "variants": []
+      },
+      {
+       "id": "s132",
+       "name": "Обработка стоп",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 800,
+       "variants": []
+      },
+      {
+       "id": "s133",
+       "name": "Обработка ногтей и кутикулы",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 850,
+       "variants": []
+      },
+      {
+       "id": "s134",
+       "name": "Обработка ногтевой пластины",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 300,
+       "variants": []
+      },
+      {
+       "id": "s135",
+       "name": "Обработка проблемной зоны",
+       "note": "мозоль, трещина, натоптыш — без педикюра",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 500,
+       "variants": []
+      },
+      {
+       "id": "s136",
+       "name": "Удаление вросшего ногтя",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 ноготь",
+       "from": false,
+       "hidden": false,
+       "price": 350,
+       "variants": []
+      },
+      {
+       "id": "s137",
+       "name": "Тампонада каполином",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 200,
+       "variants": []
+      }
+     ]
+    }
+   ],
+   "image": "",
+   "hidden": false,
+   "price_from": 600
+  },
+  {
+   "id": "brows",
+   "slug": "brovi-i-resnicy",
+   "title": "Брови и ресницы",
+   "icon": "brow",
+   "short": "Форма и коррекция бровей, окрашивание бровей и ресниц",
+   "description": "Подберём форму бровей под черты лица, сделаем коррекцию и окрашивание бровей и ресниц.",
+   "groups": [
+    {
+     "id": "g144",
+     "title": "Брови и ресницы",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s139",
+       "name": "Форма бровей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 500,
+       "variants": []
+      },
+      {
+       "id": "s140",
+       "name": "Коррекция бровей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 450,
+       "variants": []
+      },
+      {
+       "id": "s141",
+       "name": "Частичная коррекция бровей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 300,
+       "variants": []
+      },
+      {
+       "id": "s142",
+       "name": "Окрашивание бровей",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 450,
+       "variants": []
+      },
+      {
+       "id": "s143",
+       "name": "Окрашивание ресниц",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 450,
+       "variants": []
+      }
+     ]
+    }
+   ],
+   "image": "",
+   "hidden": false,
+   "price_from": 300
+  },
+  {
+   "id": "massage",
+   "slug": "massazh-i-obertyvaniya",
+   "title": "Массаж и обёртывания",
+   "icon": "hands",
+   "short": "Классический, лимфодренажный, антицеллюлитный массаж и талассотерапия",
+   "description": "Классический, лимфодренажный, антицеллюлитный и спортивный массаж, массаж спины и шейно-воротниковой зоны, обёртывания живыми водорослями и с коллагеном.",
+   "groups": [
+    {
+     "id": "g151",
+     "title": "Массаж",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s145",
+       "name": "Классический массаж",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "30 мин",
+         "price": 1700
+        },
+        {
+         "label": "60 мин",
+         "price": 2500
+        },
+        {
+         "label": "90 мин",
+         "price": 3500
+        }
+       ]
+      },
+      {
+       "id": "s146",
+       "name": "Лимфодренажный массаж",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "60 мин",
+         "price": 3000
+        },
+        {
+         "label": "90 мин",
+         "price": 4000
+        }
+       ]
+      },
+      {
+       "id": "s147",
+       "name": "Антицеллюлитный массаж",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "30 мин",
+         "price": 2500
+        },
+        {
+         "label": "45 мин",
+         "price": 2800
+        },
+        {
+         "label": "60 мин",
+         "price": 3000
+        },
+        {
+         "label": "90 мин",
+         "price": 4000
+        }
+       ]
+      },
+      {
+       "id": "s148",
+       "name": "Спортивный массаж",
+       "note": "",
+       "duration": "60 мин",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 3000,
+       "variants": []
+      },
+      {
+       "id": "s149",
+       "name": "Массаж спины и воротниковой зоны",
+       "note": "",
+       "duration": "45 мин",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1800,
+       "variants": []
+      },
+      {
+       "id": "s150",
+       "name": "Массаж шейно-воротниковой зоны",
+       "note": "",
+       "duration": "15 мин",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1200,
+       "variants": []
+      }
+     ]
+    },
+    {
+     "id": "g156",
+     "title": "Обёртывания",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s152",
+       "name": "Талассотерапия живыми водорослями",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": null,
+       "variants": [
+        {
+         "label": "60 мин",
+         "price": 2800
+        },
+        {
+         "label": "90 мин",
+         "price": 3200
+        }
+       ]
+      },
+      {
+       "id": "s153",
+       "name": "Талассотерапия и классический массаж",
+       "note": "",
+       "duration": "120 мин",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 4500,
+       "variants": []
+      },
+      {
+       "id": "s154",
+       "name": "Талассотерапия и антицеллюлитный массаж",
+       "note": "",
+       "duration": "120 мин",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 5000,
+       "variants": []
+      },
+      {
+       "id": "s155",
+       "name": "Антицеллюлитное обёртывание с живым коллагеном Intensive Preamur Pro",
+       "note": "",
+       "duration": "60 мин",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 2800,
+       "variants": []
+      }
+     ]
+    }
+   ],
+   "image": "",
+   "hidden": false,
+   "price_from": 1200
+  },
+  {
+   "id": "solarium",
+   "slug": "solyarij-kollagenarij",
+   "title": "Солярий и коллагенарий",
+   "icon": "sun",
+   "short": "Поминутная оплата и абонементы",
+   "description": "Солярий-коллагенарий с поминутной оплатой и абонементами на 10 и 15 сеансов.",
+   "groups": [
+    {
+     "id": "g161",
+     "title": "Солярий и коллагенарий",
+     "note": "",
+     "extra": false,
+     "items": [
+      {
+       "id": "s157",
+       "name": "Солярий-коллагенарий",
+       "note": "",
+       "duration": "",
+       "unit": "за 1 мин",
+       "from": false,
+       "hidden": false,
+       "price": 40,
+       "variants": []
+      },
+      {
+       "id": "s158",
+       "name": "Одноразовые материалы",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 40,
+       "variants": []
+      },
+      {
+       "id": "s159",
+       "name": "Абонемент на 10 сеансов по 5 минут",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 1750,
+       "variants": []
+      },
+      {
+       "id": "s160",
+       "name": "Абонемент на 15 сеансов по 5 минут",
+       "note": "",
+       "duration": "",
+       "unit": "",
+       "from": false,
+       "hidden": false,
+       "price": 2500,
+       "variants": []
+      }
+     ]
+    }
+   ],
+   "image": "",
+   "hidden": false,
+   "price_from": 40
+  }
+ ]
+}
